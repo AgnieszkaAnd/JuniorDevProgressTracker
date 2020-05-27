@@ -1,0 +1,106 @@
+body {
+    font-family: Alata;
+}
+
+html, body {
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    font-size: 10;
+    color: crimson;
+}
+
+a :hover {color: lightskyblue} 
+
+#mainLogo {
+    text-align: center;
+}
+
+#mainLogo img {
+    max-height: 300px;
+    margin: 20px;
+}
+
+.closed ::content {
+    display: none;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style: none;
+}
+
+input[type="checkbox"]:checked + label {
+    background: greenyellow;
+    text-decoration: line-through;
+}
+
+footer {
+    text-align: center;
+    margin-block: 10px;
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerLogos {
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	display: inline-flex;
+	flex-flow: row; 
+	justify-content: space-evenly;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.footerLogos li {
+	text-decoration: none;
+    font-size: 15px;
+}
+
+.footer #copyrights {
+    padding-right: 75px;
+}
+
+.footerLogo {
+	text-decoration: none;
+}
+
+.footerLogo img {
+	text-align: center;
+	max-width: 30px;
+	max-height: 30px;
+	padding-inline: 10px;
+}
